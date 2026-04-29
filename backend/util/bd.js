@@ -15,4 +15,4 @@ export const connectDB = async () => {
     console.log('Connexion au BD échouéeco', err);
     process.exit(1);
   }
-};
+}; 
