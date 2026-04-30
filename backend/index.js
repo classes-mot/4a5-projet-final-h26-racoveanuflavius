@@ -14,6 +14,10 @@ app.use((req, res, next) => {
   next(error);
 });
 
+app.use('/api/users', usersRoutes)
+app.use('/api/batiments', batimentsRoutes)
+
+
 app.use(errorHandler);
 
 await connectDB();
