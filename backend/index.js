@@ -25,6 +25,4 @@ app.use(errorHandler);
 
 await connectDB();
 
-app.listen(3000, ()=>{
-    console.log("Serveur sur le port", `http://localhost:3000`);
-})
+export default app;
