@@ -5,12 +5,12 @@ describe("Building Model", () => {
     const building = new Building({
       nom: "Hôpital abandonné",
       adresse: "123 Rue X",
-      danger: "Élevé",
+      danger: "autre",
       histoire: "Construit en 1950",
       imageUrl: "hopital.jpg"
     });
 
     expect(building.nom).toBe("Hôpital abandonné");
-    expect(building.danger).toBe("Élevé");
+    expect(building.danger).toBe("autre");
   });
 });

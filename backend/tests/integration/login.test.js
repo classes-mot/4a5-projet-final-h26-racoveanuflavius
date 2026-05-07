@@ -6,8 +6,8 @@ describe("POST /auth/login", () => {
     const res = await request(app)
       .post("/auth/login")
       .send({
-        email: "test@test.com",
-        password: "123456"
+        username: "Flav",
+        password: "1234"
       });
 
     expect(res.statusCode).toBe(200);
@@ -18,7 +18,7 @@ describe("POST /auth/login", () => {
     const res = await request(app)
       .post("/auth/login")
       .send({
-        email: "wrong@test.com",
+        username: "allllllll",
         password: "badpass"
       });
 
