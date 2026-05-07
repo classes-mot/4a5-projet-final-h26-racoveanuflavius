@@ -7,7 +7,7 @@ const batimentSchema = mongoose.Schema({
   danger: { type: [String] },
   dateAbandon: { type: Date },
   histoire: { type: String },
-  photos: { type: [String] },
+  imageUrl: { type: String},
 });
 
 export const Batiment = mongoose.model('Batiment', batimentSchema);
