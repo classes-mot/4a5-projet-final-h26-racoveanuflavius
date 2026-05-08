@@ -1,0 +1,42 @@
+{
+  "navbar": {
+    "title": "UrbexMania",
+    "buildings": "Bâtiments",
+    "favorites": "Favoris",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "register": "Créer un compte"
+  },
+
+  "titles": {
+    "favorites": "Mes favoris",
+    "buildings": "Liste des bâtiments",
+    "newBuilding": "Ajouter un bâtiment",
+    "editBuilding": "Modifier un bâtiment"
+  },
+
+  "buttons": {
+    "create": "Ajouter un bâtiment",
+    "save": "Enregistrer",
+    "remove": "Retirer",
+    "details": "Détails",
+    "addFavorite": "Ajouter aux favoris"
+  },
+
+  "form": {
+    "name": "Nom",
+    "address": "Adresse",
+    "danger": "Sélectionner un danger",
+    "date": "Date d'abandon",
+    "history": "Histoire",
+    "image": "Choisir une image",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe"
+  },
+
+  "messages": {
+    "noFavorites": "Aucun favori pour le moment.",
+    "noBuildings": "Aucun bâtiment trouvé.",
+    "loading": "Chargement..."
+  }
+}
